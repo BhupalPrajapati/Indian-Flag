@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian flag</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <img src=https://user-images.githubusercontent.com/84180236/150675067-e89de70d-280b-4888-934a-937dbae9298c.png
+            height="235px" width="235px">
+    </div>
+    <svg>
+        <filter id="wave">
+            <feTurbulence x="0" y="0" baseFrequency="0.09" numOctaves="12" seed="4" />
+            <animate attributeName="baseFrequency" dur="60s" values="0.02;0.5;0.02" repeatCount="indefinite"></animate>
+            </feTurbulence>
+            <feDisplacementMap in="SourceGraphic" scale="80"> </feDisplacementMap>
+        </filter>
+    </svg>
+</body>
+
+</html>
